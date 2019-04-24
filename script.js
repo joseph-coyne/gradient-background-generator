@@ -10,15 +10,15 @@ colorOutput2 = "red";
 function setColorValue() {
   h3.innerHTML =
     "background: linear-gradient(to right, " +
-    colorOutput1 +
+    color1.value +
     ", " +
-    colorOutput2 +
+    color2.value2 +
     ")";
 }
 
 function changeBackground() {
   body.style.background =
-    "linear-gradient(to right, " + colorOutput1 + ", " + colorOutput2 + ")";
+    "linear-gradient(to right, " + color1.value + ", " + color2.value + ")";
 }
 
 color1.addEventListener("input", function() {
